@@ -166,12 +166,172 @@
 						'desc': 'Variant of democracy; refers to a system of government in which lawfully elected representatives maintain the integrity of a nation state whose citizens, while granted the right to vote, have little or no participation in the decision-making process of the government.'
 					}
 				]
+			},
+			{
+				'name': 'Oligarchic',
+				'desc': 'Governments with oligarchic attributes are ruled by a small group of segregated, powerful and/or influential people, who usually share similar interests and/or family relations. These people may spread power and elect candidates equally or not equally. An oligarchy is different from a true democracy because very few people are given the chance to change things. An oligarchy does not have to be hereditary or monarchic. An oligarchy does not have one clear ruler, but several rulers.',
+				'type': [
+					{
+						'name': 'Ergatocracy',
+						'desc': 'Rule by the proletariat, the workers, or the working class. Examples of ergatocracy include communist revolutionaries and rebels which control most of society and create an alternative economy for people and workers. See Dictatorship of the proletariat.'
+					},
+					{
+						'name': 'Kritarchy',
+						'desc': 'Rule by judges; a system of governance composed of law enforcement institutions in which the state and the legal systems are traditionally and/or constitutionally the same entity. Kritarchic judges, magistrates and other adjudicators have the legal power to legislate and administrate the enforcement of government laws, in addition to the interposition of laws and the resolution of disputes. (Not to be confused with "judiciary" or "judicial system".) Somalia, ruled by judges with the tradition of xeer,[18] as well as the Islamic Courts Union, is a historical example.'
+					},
+					{
+						'name': 'Netocracy',
+						'desc': 'Rule by social connections; a term invented by the editorial board of the American technology magazine Wired in the early 1990s. A portmanteau of Internet and aristocracy, netocracy refers to a perceived global upper-class that bases its power on a technological advantage and networking skills, in comparison to what is portrayed as a bourgeoisie of a gradually diminishing importance. The netocracy concept has been compared with Richard Florida\'s concept of the creative class. Bard and Söderqvist have also defined an under-class in opposition to the netocracy, which they refer to as the consumtariat.'
+					},
+					{
+						'name': 'Oligarchy',
+						'desc': 'Rule by a system of governance with small group of people who share similar interests or family relations.'
+					},
+					{
+						'name': 'Plutocracy',
+						'desc': 'Rule by the rich; a system of governance composed of the wealthy class. Any of the forms of government listed here can be plutocracy. For instance, if all of the elected representatives in a republic are wealthy, then it is a republic and a plutocracy.'
+					},
+					{
+						'name': 'Stratocracy',
+						'desc': 'Rule by military service; a system of governance composed of military government in which the state and the military are traditionally and/or constitutionally the same entity. Citizens with mandatory or voluntary active military service, or who have been honorably discharged, have the right to govern. (Not to be confused with "military junta" or "military dictatorship".) The Spartan city-state is a historical example; its social system and constitution, were completely focused on military training and excellence. Stratocratic ideology often attaches to the honor-oriented timocracy.'
+					},
+					{
+						'name': 'Theocracy',
+						'desc': 'Rule by a religious elite; a system of governance composed of religious institutions in which the state and the church are traditionally and/or constitutionally the same entity. Citizens who are clergy have the right to govern. The Vatican\'s (see Pope), the Tibetan government\'s (see Dalai Lama) and Islamic states are historically considered theocracies.'
+					}
+				]
+			},
+			{
+				'name': 'Other Electors',
+				'desc': '',
+				'type': [
+					{
+						'name': 'Anarchy',
+						'desc': 'Anarchy has more than one definition. In the United States, the term "anarchy" typically is used to refer to a society without a publicly enforced government or violently enforced political authority. When used in this sense, anarchy may or may not be intended to imply political disorder or lawlessness within a society. Outside of the U.S., and by most individuals that self-identify as anarchists, it implies a system of governance, mostly theoretical at a nation state level. There are also other forms of anarchy that attempt to avoid the use of coercion, violence, force and authority, while still producing a productive and desirable society.'
+					},
+					{
+						'name': 'Anocracy',
+						'desc': 'An anocracy is a regime type where power is not vested in public institutions (as in a normal democracy) but spread amongst elite groups who are constantly competing with each other for power. Examples of anocracies in Africa include the warlords of Somalia and the shared governments in Kenya and Zimbabwe. Anocracies are situated midway between an autocracy and a democracy. The Polity IV dataset recognised anocracy as a category. In that dataset, anocracies are exactly in the middle between autocracies and democracies. Often the word is defined more broadly. For example a 2010 International Alert publication defined anocracies as "countries that are neither autocratic nor democratic, most of which are making the risky transition between autocracy and democracy". Alert noted that the number of anocracies had increased substantially since the end of the Cold War. Anocracy is not surprisingly the least resilient political system to short-term shocks: it creates the promise but not yet the actuality of an inclusive and effective political economy, and threatens members of the established elite; and is therefore very vulnerable to disruption and armed violence.'
+					},
+					{
+						'name': 'Banana republic',
+						'desc': 'A banana republic is a politically unstable kleptocratic government that economically depends upon the exports of a limited resource (fruits, minerals), and usually features a society composed of stratified social classes, such as a great, impoverished ergatocracy and a ruling plutocracy, composed of the aristocracy of business, politics, and the military. In political science, the term banana republic denotes a country dependent upon limited primary-sector productions, which is ruled by a plutocracy who exploit the national economy by means of a politico-economic oligarchy. In American literature, the term banana republic originally denoted the fictional Republic of Anchuria, a servile dictatorship that abetted, or supported for kickbacks, the exploitation of large-scale plantation agriculture, especially banana cultivation. In U.S. politics, the term banana republic is a pejorative political descriptor coined by the American writer O. Henry in Cabbages and Kings (1904), a book of thematically related short stories derived from his 1896–97 residence in Honduras, where he was hiding from U.S. law for bank embezzlement.'
+					},
+					{
+						'name': 'Maoism',
+						'desc': 'The theory and practice of Marxism-Leninism developed in China by Mao Zedong (Mao Tse-tung), which states that a continuous revolution is necessary if the leaders of a communist state are to keep in touch with the people.'
+					}
+				]
 			}
-	],
-		'power_distribution': [],
+		],
+
+		'power_distribution': [
+			
+			{
+				'name': 'Republican',
+				'desc': 'A republic is a form of government in which the country is considered a "public matter" (Latin: res publica), not the private concern or property of the rulers, and where offices of states are subsequently directly or indirectly elected or appointed rather than inherited.',
+				'type': [
+					{
+						'name': 'Republic',
+						'desc': 'Rule by a form of government in which the people, or some significant portion of them, have supreme control over the government and where offices of state are elected or chosen by elected people. A common simplified definition of a republic is a government where the head of state is not a monarch. Montesquieu included both democracies, where all the people have a share in rule, and aristocracies or oligarchies, where only some of the people rule, as republican forms of government.'
+					},
+					{
+						'name': 'Constitutional Republic',
+						'desc': 'Rule by a government whose powers are limited by law or a formal constitution, and chosen by a vote amongst at least some sections of the populace (Ancient Sparta was in its own terms a republic, though most inhabitants were disenfranchised). Republics that exclude sections of the populace from participation will typically claim to represent all citizens (by defining people without the vote as "non-citizens"). Examples include the United States, South Africa, India, etc.'
+					},
+					{
+						'name': 'Democratic Republic',
+						'desc': 'A republic form of government where the country is considered a "public matter" (Latin: res publica), not a private concern or property of rulers/3rd world, and where offices of states are subsequently, directly or indirectly, elected or appointed – rather than inherited – where all eligible citizens have an equal say in the local and national decisions that affect their lives.'
+					},
+					{
+						'name': 'Parlimentary Republic',
+						'desc': 'A republic, like India, Singapore and Poland, with an elected head of state, but where the head of state and head of government are kept separate with the head of government retaining most executive powers, or a head of state akin to a head of government, elected by a parliament.'
+					},
+					{
+						'name': 'Federal Republic',
+						'desc': 'A federal union of states or provinces with a republican form of government. Examples include Argentina, Austria, Brazil, Germany, India, Russia, and Switzerland.'
+					},
+					{
+						'name': 'Islamic Republic',
+						'desc': 'Republics governed in accordance with Islamic law. Examples include Afghanistan, Pakistan, and Iran.'
+					},
+					{
+						'name': 'Socialist Republic',
+						'desc': 'Countries like China and Vietnam are meant to be governed for and by the people, but with no direct elections. The term People\'s Republic is used to differentiate themselves from the earlier republic of their countries before the people\'s revolution, like the Republic of China and Republic of Korea.'
+					}
+				]
+			},
+
+			{
+				'name': 'Federalism',
+				'desc': 'Federalism is a political concept in which a group of members are bound together by covenant (Latin: foedus, covenant) with a governing representative head. The term "federalism" is also used to describe a system of government in which sovereignty is constitutionally divided between a central governing authority and constituent political units (such as states or provinces). Federalism is a system based upon democratic rules and institutions in which the power to govern is shared between national and provincial/state governments, creating what is often called a federation. Proponents are often called federalists.',
+				'type': [
+					{
+						'name': 'Federalism',
+						'desc': 'Rule by a form of government in which the people, or some significant portion of them, have supreme control over the government and where offices of state are elected or chosen by elected people. Montesquieu included both democracies, where all the people have a share in rule, and aristocracies or oligarchies, where only some of the people rule, as republican forms of government.'
+					},
+					{
+						'name': 'Federal Monarchy',
+						'desc': 'A federal monarchy is a federation of states with a single monarch as overall head of the federation, but retaining different monarchs, or a non-monarchical system of government, in the various states joined to the federation.'
+					},
+					{
+						'name': 'Federal Republic',
+						'desc': 'A federal union of states or provinces with a republican form of government. Examples include Argentina, Austria, Brazil, Germany, India, Russia, and Switzerland.'
+					}
+				]
+			},
+
+			{
+				'name': 'Other Power Distributions',
+				'desc': '',
+				'type': [
+					{
+						'name': 'Adhocracy',
+						'desc': 'Rule by a government based on relatively disorganised principles and institutions as compared to a bureaucracy, its exact opposite.'
+					},
+					{
+						'name': 'Anarchism',
+						'desc': 'Sometimes said to be non-governance; it is a structure which strives for non-hierarchical voluntary associations among agents. Anarchy is a situation where there is no government. This can happen after a civil war in a country, when a government has been destroyed and rival groups are fighting to take its place. There are also people called anarchists. They believe that any government is a bad thing – this belief is called anarchism. Anarchists think governments stop people organising their own lives. Instead they think people would be better off if they ruled their own lives and worked together to create a society in any form they choose.'
+					},
+					{
+						'name': 'Band society',
+						'desc': 'Rule by a government based on small (usually family) unit with a semi-informal hierarchy, with strongest (either physical strength or strength of character) as leader. Very much like a pack seen in other animals, such as wolves.'
+					},
+					{
+						'name': 'Bureaucracy',
+						'desc': 'Rule by a system of governance with many bureaus, administrators, and petty officials'
+					},
+					{
+						'name': 'Chiefdom',
+						'desc': 'Rule by a government based on small complex society of varying degrees of centralisation that is led by an individual known as a chief.'
+					},
+					{
+						'name': 'Cybersynacy',
+						'desc': 'Ruled by a data fed group of secluded individuals that regulates aspects of public and private life using data feeds and technology having no interactivity with the citizens but using "facts only" to decide direction.'
+					},
+					{
+						'name': 'Parliamentary system',
+						'desc': 'A system of democratic government in which the ministers of the executive branch derive their legitimacy from and are accountable to a legislature or parliament; the executive and legislative branches are interconnected. It is a political system in which the supreme power lies in a body of citizens who can elect people to represent them.'
+					},
+					{
+						'name': 'Presidential system',
+						'desc': 'A system of government where an executive branch is led by a president who serves as both head of state and head of government. In such a system, this branch exists separately from the legislature, to which it is not responsible and which it cannot, in normal circumstances, dismiss.'
+					},
+					{
+						'name': 'Nomocracy',
+						'desc': 'Rule by a government under the sovereignty of rational laws and civic right as opposed to one under theocratic systems of government. In a nomocracy, ultimate and final authority (sovereignty) exists in the law.'
+					}
+				]
+			}
+
+		],
+
 		'socio_economic': [],
+
 		'constitutional': [],
+
 		'regional_autonomy': [],
+
 		'theoretical': []
 	}
 }
