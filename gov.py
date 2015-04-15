@@ -28,6 +28,7 @@ class Government(cmd.Cmd):
             print "gov_list chosen:", gov_list
             if gov_list.lower() in (list_item.lower() for list_item in self.GOV_LIST):
                 self.active_list = gov_list.lower()
+                self.do_rand(self)
             else:
                 print "That list type is invalid. Please try again."
         else:
@@ -121,4 +122,8 @@ class Government(cmd.Cmd):
         print "Exiting..."
 
 if __name__ == '__main__':
-    Government().cmdloop()
+    import sys
+    if len(sys.argv) > 1:
+        Government().onecmd(' '.join(sys.argv[1:]))
+    else:
+        Government().cmdloop()
