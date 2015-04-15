@@ -2,7 +2,7 @@
 	"government": [
 
 		{
-			"name": "empowered",
+			"name": "Empowered",
 			"option": [
 
 				{
@@ -129,7 +129,7 @@
 		},
 
 		{
-			"name": "electors",
+			"name": "Electors",
 			"option": [
 
 				{
@@ -244,7 +244,7 @@
 		},
 
 		{
-			"name": "power_distribution",
+			"name": "Power Distribution",
 			"option": [
 
 				{
@@ -348,7 +348,7 @@
 		},
 
 		{
-			"name": "socio_economic",
+			"name": "Socio Economic",
 			"option": [
 
 				{
@@ -386,12 +386,12 @@
 		},
 
 		{
-			"name": "regional_autonomy",
+			"name": "Regional Autonomy",
 			"option": [
 
 				{
-					"name": "Sovereignty located exclusively at the centre of political jurisdiction.",
-					"desc": "",
+					"name": "Central Sovereignty",
+					"desc": "Sovereignty located exclusively at the centre of political jurisdiction.",
 					"option": [
 						{
 							"name": "Empire",
@@ -405,8 +405,8 @@
 				},
 
 				{
-					"name": "Sovereignty located at the centre and in peripheral areas.",
-					"desc": "",
+					"name": "Mixed Sovereignty",
+					"desc": "Sovereignty located at the centre and in peripheral areas.",
 					"option": [
 						{
 							"name": "Hegemony",
@@ -428,7 +428,7 @@
 				},
 
 				{
-					"name": "Diverging degrees of sovereignty.",
+					"name": "Diverging Sovereignty",
 					"desc": "This list focuses on differing approaches that political systems take to the distribution of sovereignty, and the autonomy of regions within the state.",
 					"option": [
 						{

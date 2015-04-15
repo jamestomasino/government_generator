@@ -12,7 +12,42 @@ class Government(cmd.Cmd):
     json_data = open('gov.json')
     data = json.load(json_data)
     gov = data["government"];
-    TYPES = [ x["name"] for x in gov]
+    GOV_LIST = [ x["name"] for x in gov]
+
+    active_list = 'rand'
+    active_type = 'rand'
+
+
+    # List methods & helpers
+    def do_list(self, gov_list):
+        """list [gov_list]
+        Choose a government type list to use for generation."""
+        if gov_list:
+            print "gov_list chosen:", gov_list
+            if gov_list.lower() in (list_item.lower() for list_item in self.GOV_LIST):
+                active_list = gov_list.lower()
+            else:
+                print "That list type is invalid. Please try again."
+        else:
+            print "No list chosen. Please try again."
+
+    def help_list(self):
+        print '\n'.join([ '',
+                          'list [gov_list]',
+                          '-- Choose a government type list to use for generation.',
+                          ''
+                          ])
+
+    def complete_list(self, text, line, begidx, endidx):
+        if not text:
+            completions = self.GOV_LIST[:]
+        else:
+            completions = [ f
+                            for f in self.GOV_LIST
+                            if f.lower().startswith(text.lower())
+                            ]
+        return completions
+
 
     def do_type(self, gov_type):
         """type [gov_type]
@@ -20,12 +55,12 @@ class Government(cmd.Cmd):
         if gov_type:
             print "gov_type chosen:", gov_type
         else:
-            print 'no gov_type chosen'
+            print "No type chosen. Please try again."
 
     def help_type(self):
         print '\n'.join([ '',
                           'type [gov_type]',
-                          '-- Choose a type of government list to use',
+                          '-- Choose a type of government to use from the active list',
                           ''
                           ])
 
@@ -44,15 +79,6 @@ class Government(cmd.Cmd):
                           ''
                           ])
 
-    def complete_rand(self, text, line, begidx, endidx):
-        if not text:
-            completions = self.TYPES[:]
-        else:
-            completions = [ f
-                            for f in self.TYPES
-                            if f.startswith(text)
-                            ]
-        return completions
 
     def do_exit(self, line):
         "Exit"
